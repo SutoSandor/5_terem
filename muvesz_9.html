@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>Remsey Jenő György</h1><br>
+  <p id="szoveg"> 
+  A fiatalon 1909-ben Gödöllőre érkezett művész a településen maradt, és itt alapított családot.<br><br>
+Az 1919-ben megalakult Gödöllői Művész Egyesület alapítója és vezető egyénisége volt, ugyanakkor ezekben az években egyéni, sőt országos jelentőségű művészeti sikereket aratott. <br><br>
+1938-ban nagysikerű egyéni kiállítása volt Gödöllőn a községháza nagytermében, ahol 30 alkotó év eredményeit mutatták be, „régi és új művek, bibliai és történelmi kompozíciók, gyönyörű magyar stylusu gobelin tervek, – színes ablaktervek az ősmagyar mondakörből, a wagneri zenemondakörből, tájképek, életképek” írják a kiállításról szóló ismertetőben. 1940-ben Remsey Jenő nagyméretű történelmi festményt készített megrendelésre az országház miniszterelnöki tanácsterme részére. A hármas osztású festmény Horthy Miklós bevonulását ábrázolja a visszacsatolt Kassára. A mester 1943-ban készítette el művészetének egy igen jelentős művét, a budapesti Lónyai utcai református gimnázium hatalmas freskóját, amelynek címe: A magyar reformáció szellemtörténete. <br><br>
+Remsey Jenő György irodalmi munkássága sem elhanyagolható. 1931-ben hosszabb írást olvashatunk Az eszeveszettek című misztériumjátékáról a helyi sajtóban, ahol már a korábbi években hírt adtak Tűzrakó című művéről is. A Fáklya című folyóiratról, ami szintén Remsey Jenő nevéhez köthető, is említést tesz egy gödöllői lap, és 1933-ban jelenik meg A hajó című színműve.<br><br>
+Gödöllő városa, annak kulturális intézményei kutatják Remsey Jenő életművét, képzőművészeti munkásságáról kiállításokkal emlékeznek meg, irodalmi munkásságát is összefoglalókban méltatják.<br><br>
+
+  </p>
+ <center>
+ <div id="gallery">
+   
+  <a class="example-image-link" href="img/muvesz_9/2.jpg" data-lightbox="example-set" data-title="<h3>Remsey Jenő Emmauszi tanítványok, 1952 ceruza, akvarell, tempera, papír</h3>">
+  <img class="example-image" src="img/muvesz_9/thumbs/2.jpg" alt=""/></a>
+  <a class="example-image-link" href="img/muvesz_9/3.jpg" data-lightbox="example-set" data-title="<h3>Remsey Jenő Önarckép, 1923 olaj, vászon</h3>">
+  <img class="example-image" src="img/muvesz_9/thumbs/3.jpg" alt=""/></a>
+  <a class="example-image-link" href="img/muvesz_9/4.jpg" data-lightbox="example-set" data-title="<h3>A György barát című dráma kolozsvári előadásának plakátja, 1942</h3>">
+  <img class="example-image" src="img/muvesz_9/thumbs/4.jpg" alt=""/></a>
+  <a class="example-image-link" href="img/muvesz_9/5.jpg" data-lightbox="example-set" data-title="<h3>Remsey Jenő Parasztanya, 1938 olaj, vászon</h3>">
+  <img class="example-image" src="img/muvesz_9/thumbs/5.jpg" alt=""/></a>
+   <a class="example-image-link" href="img/muvesz_9/1.jpg" data-lightbox="example-set" data-title="<h3>Remsey Jenő Seherezádé meséi gobelinterv, ceruza, akvarell, tempera, papír</h3>">
+  <img class="example-image" src="img/muvesz_9/thumbs/1.jpg" alt=""/></a>
+ </div>
+ </center>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+   <script src="js/lightbox-plus-jquery.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

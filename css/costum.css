@@ -1,0 +1,406 @@
+@font-face {
+  font-family: 'NeutraTextLight';
+  src: url('../font/NeutraTextLight-Bold.ttf');
+}
+@font-face {
+  font-family: 'NeutraTextLightRegular';
+  src: url('../font/NeutraTextLight-Regular.ttf');
+}
+
+body {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  overflow-x: hidden;
+}
+body.hatter {
+  font-family: 'NeutraTextLightRegular';
+  background-color: #fff;
+  /* background: url('../img/hatter.jpg') no-repeat center center fixed;*/
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  margin:0;
+  padding:0;
+}
+p {
+  line-height: 135%;
+  font-size: 26px;
+}
+ol {
+  line-height: 135%;
+  font-size: 26px;
+}
+
+.galerialista {
+  line-height: 175%;
+  font-size: 26px;
+  display: block;
+  margin-left: 150px;
+}
+.galerialista2 {
+  line-height: 175%;
+  font-size: 30px;
+  display:table;
+  margin:0px auto 0px auto;
+  background-color: #b4c8dc;
+  list-style-type: none;
+  padding-right: 25px;
+}
+
+body.iframe_tartalmak {
+  background-color: #fff;
+  font-family: 'NeutraTextLightRegular';
+}
+.iframe-galeria {
+  background-color: #fff;
+  font-family: 'NeutraTextLightRegular';
+  overflow: hidden;
+}
+
+.cim {
+    margin-bottom:80px;
+
+}
+.kepek {
+  margin-top:60px;
+}
+
+.nyitohr{
+  border-color:#b4c8db;
+}
+
+hr{
+  border-color:#b4c8db;
+}
+
+.iframehr{
+  border-color:#b4c8db;
+  width: 60%;
+}
+
+.keret {
+  border: 4px solid #b4c8dc;
+  /*-webkit-box-shadow: 2px 2px 6px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 2px 2px 6px 0px rgba(0,0,0,1);
+  box-shadow: 2px 2px 6px 0px rgba(0,0,0,1);*/
+}
+
+.oldalcim {
+  color: #026490;
+  font-family: NeutraTextLight;
+  text-transform: uppercase;
+  /*text-shadow: 4px 3px 2px #b4c8db;*/
+  margin-top: 60px;
+}
+
+.oldalcim_aloldal
+ {
+  color: #026490;
+  font-family: NeutraTextLight;
+
+/*  text-shadow: 4px 3px 2px #b4c8db;*/
+
+}
+
+
+h2 {
+  color:#000;
+}
+.kepekalla {
+  color:#000;
+  position: relative;
+  padding-top: 430px;
+  left: -40px;
+}
+
+.kepekalla2 {
+  color:#000;
+  position: relative;
+  padding-top: 450px;
+}
+
+.szovegek {
+  position: relative;
+  margin-top: 20px;
+  margin-left: 25px;
+  background-color: #fff;
+  float: left;
+  width: 70%;
+  height: 1000px;
+  border-radius: 0px;
+  border: 1px solid #b4c8db;
+  -webkit-box-shadow: 2px 2px 6px 0px #b4c8db;
+  -moz-box-shadow: 2px 2px 6px 0px #b4c8db;
+  box-shadow: 2px 2px 6px 0px #b4c8db;
+
+}
+.menu {
+  position: relative;
+  border-radius: 0px;
+  margin-top: 20px;
+  margin-right: 25px;
+  padding-top: 70px;
+  background-color: #fff;
+  border: 1px solid #b4c8db;
+  float: right;
+  width: 25%;
+  height: 1000px;
+  -webkit-box-shadow: 2px 2px 6px 0px #b4c8db;
+  -moz-box-shadow: 2px 2px 6px 0px #b4c8db;
+  box-shadow: 2px 2px 6px 0px #b4c8db;
+  text-align: center;
+  font-size: 25px;
+}
+
+.fomenulink {
+  width: 100%;
+  height:40px;
+  background-color: #b4c8dc;
+  color: #9ccd39;
+  position: absolute;
+  bottom: 0;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+.galleriaklink {
+  width: 100%;
+  height:40px;
+
+  position: absolute;
+  bottom: 80px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+
+.nyelvvalaszto {
+  width: 100%;
+  height:40px;
+  background-color: #236490;
+  position: absolute;
+  top: 0;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 40px;
+}
+
+a:link {
+  color: #236490;
+  text-decoration: none;
+}
+
+ a:active{
+   color: #000;
+   text-decoration: none;
+ }
+
+ a:visited{
+   color: #236490;
+   text-decoration: none;
+ }
+
+ a:hover{
+   color: #000;
+   text-decoration: none;
+ }
+
+.example-image{
+  border: 4px solid #b4c8db;
+  padding: 2px;
+  margin: 5px;
+}
+.galeriacim{
+  padding-bottom: 50px;
+}
+
+
+a.masodlagoslink {
+  color: #236490;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+a.linkszoveg{
+    color: #ff5454;
+}
+
+iframe {
+  margin-top:10px;
+  margin-bottom:0px;
+  padding-bottom:10px;
+  margin-left:0px;
+  height: 100%;
+  width: 100%;
+  ::-webkit-scrollbar: #000;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+    width: 35px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background: #b4c8db;
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255,0,0,0.4);
+}
+
+.btn {
+  color: #ffffff;
+  font-size: 16px;
+  background: #236490;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.btn:hover {
+  background: #ad462d;
+  text-decoration: none;
+}
+
+.kozep {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.szovegkep {
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 5px;
+  border-color: #b4c8dc;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+#crossfade > img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: transparent;
+    opacity: 0;
+    z-index: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-animation: imageAnimation 50s linear infinite 0s;
+    -moz-animation: imageAnimation 50s linear infinite 0s;
+    -o-animation: imageAnimation 50s linear infinite 0s;
+    -ms-animation: imageAnimation 50s linear infinite 0s;
+    animation: imageAnimation 50s linear infinite 0s;
+}
+
+#crossfade > img:nth-child(2)  {
+    -webkit-animation-delay: 10s;
+    -moz-animation-delay: 10s;
+    -o-animation-delay: 10s;
+    -ms-animation-delay: 10s;
+    animation-delay: 10s;
+}
+#crossfade > img:nth-child(3) {
+    -webkit-animation-delay: 20s;
+    -moz-animation-delay: 20s;
+    -o-animation-delay: 20s;
+    -ms-animation-delay: 20s;
+    animation-delay: 20s;
+}
+#crossfade > img:nth-child(4) {
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
+}
+#crossfade > img:nth-child(5) {
+    -webkit-animation-delay: 40s;
+    -moz-animation-delay: 40s;
+    -o-animation-delay: 40s;
+    -ms-animation-delay: 40s;
+    animation-delay: 40s;
+}
+.visszalink { 
+	position: relative;
+	margin-left: 45%;
+	margin-right: 45%;
+	bottom: 15px;
+    border: 4px solid #b4c8dc;
+  }
+.hezag{
+	height: 100px;
+  }
+
+@-webkit-keyframes imageAnimation {
+    0% { opacity: 0;
+    -webkit-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -webkit-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-moz-keyframes imageAnimation {
+    0% { opacity: 0;
+    -moz-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -moz-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-o-keyframes imageAnimation {
+    0% { opacity: 0;
+    -o-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -o-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@-ms-keyframes imageAnimation {
+    0% { opacity: 0;
+    -ms-animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         -ms-animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}
+
+@keyframes imageAnimation {
+    0% { opacity: 0;
+    animation-timing-function: ease-in; }
+    8% { opacity: 1;
+         animation-timing-function: ease-out; }
+    17% { opacity: 1 }
+    25% { opacity: 0 }
+    100% { opacity: 0 }
+}

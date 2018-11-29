@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+  <style>
+    .listameret{
+      font-size: 25px;
+    }
+    .galerialista{
+      margin-left: 300px;
+    }
+  </style>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>The Gödöllői Művészegyesület (Gödöllő Artists' Society)</h1><br>
+  <p id="szoveg"> 
+    The date of the death of Körösfői-Kriesch mark the end of the Gödöllő Artists' Colony, but the artists living in different parts of the country, repatriated abroad, or working abroad kept in touch. Primarily they cultivated friendships made in previous years, but they did not solve common artistic tasks. They did not keep close contact, we only know of a few  friendly correspondences, visits, or long conversations, which occurred between the artists who moved away from Gödöllő, for many, many years. The artists living in Gödöllő took on the artists' colony's view on life and their teaching traditions. The Gödöllő resident Sándor Nagy, Jenő Remsey and Aladár Körösfői-Kriesch's widow, Ilka Ujvárossy, lived as close friends in the twenties, helping each other in post-war poverty too.<br><br>
+    The Gödöllő weaving workshop continued to work, although instead of Aladár Körösfői-Kriesch it was Sándor Nagy and his wife, Laura Kriesch who directed it. Later Jenő Remsey with his wife, Vilma Frey, also launched a home-industry-like weaving workshop, and in 1938 their daughter, Ágnes Remsey also dealt with textile design, in the weaving workshop that was under her control.<br><br>
+    The Cennini Társaság (Cennini Society), in which we can meet the names of Körösfői's students, Antal Diósy, Vince Hende and György Leszkovszky was formed in 1920, under the influence of the Gödöllő Artists' Colony. They considered trecento art as their spiritual ideal. The founders of the Spirituális Művészek Szövetsége (Spiritual Artists' Society), that was operating between 1924-1945, were Jenő Remsey and Zoltán Remsey, who in the catalogue preface of their first exhibition held in the National Salon in October 1924 emphasized that "in art we do not search for the playful changes of shapes and surfaces, the subject of our artistic quest is: the eternal human soul"... . We know that art is not for its own sake: the purpose is to lift up our fellow human beings." With these words, they shared the Gödöllő Artists' Colony's thoughts about arts education.<br><br>
+    In the following years the newspaper Gödöllő és Vidéke (Gödöllő and its Surroundings) reported about the local exhibitions of the young Gödöllő artists, the Gödöllő Artists' Society. There is a detailed review about the group of artists who became a society. The society "got together just a few years ago," and "one-two renowned artist, including the excellent master Kriesch, founded the society and with modest means gained name, recognition and place for themselves in Hungarian fine art. They have just formed a society, and chose István Kálmán member of parliament as their leader." The article listed the participants also, they were: Jenő Remsey, Zoltán Remsey, György Dettári, Dénes Sztelek, István Pintér, Jenő Rácz, Jenő Bodnár, Ella Fekete, Mihály Varga and Ferenc Mayer. The exhibition lasted for a short time, but the newspaper reports that "His Serene Highness", Miklós Horthy, visited the exhibition on August 16. The remark of the governor can be found in the guests book, which is stored in the Gödöllő Town Museum.<br><br>
+
+  </p>
+ <center>
+ <div id="gallery">
+    
+ 
+ <p class="listameret">
+      Please choose one of the content!
+    </p>
+    <br>
+    </center>
+    <ul class="galerialista listameret">
+      <a  href="muvesz_7_1_en.html" target="tartalmak" ><li>The exhibition book of the Gödöllő Artists' Association</li>
+      <a  href="muvesz_7_2_en.html" target="tartalmak" ><li>Békés County Gazette</li>
+      <a  href="muvesz_7_3_en.html" target="tartalmak" ><li>Bohém sátor</li>
+      <a  href="muvesz_7_4_en.html" target="tartalmak" ><li>István Hegedűs</li>
+      <a  href="muvesz_7_5_en.html" target="tartalmak" ><li>Madonna of Gödöllő</li>
+    </ul>
+    </div>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+   <script src="js/lightbox-plus-jquery.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

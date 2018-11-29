@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Folk art in the Gödöllő Artists' Colony</h1><br>
+  <p id="szoveg"> 
+  Among the works of the artists of the Gödöllő Artists' Colony, formed in 1901, there are many which fit in the course of European art and are based on Hungarian folk art.<br><br>
+The artists used decorative folk art elements in their own applied art objects, and took part in ethnographic fieldworks. The folk art objects were present in their everyday life, their clothing, their living. The folk motifs, the representation of peasant life and the folk objects are not only accurate or stylized representations in their works, but they are to be taken into account in the context of their view of life, philosophy, social sensibility, religiosity, teaching and educational principles. According to Judit Szabadi "in their case it is not an intuition, a fashion, or an almost unconscious harmony with their times, but a theoretically well-founded, therefore perfectly conscious program, profound vocation, precisely defined and managed organization."<br><br>
+What confronted the Gödöllő artists with the fact that only a small fraction of the Hungarian folk art relics had been discovered is their search for resources driven by the need to renew applied arts. Finding the source of inspiration was no easy task. The concepts of folk art, decorative folk art, home industry, and applied arts started to separate from each other clearly only that time. The questions of collection and scientific processing were also formulated at that time. The English example did not prove to be an exclusive one either, since the Pre-Raphaelites regarded the Middle Ages and the time before the Industrial Revolution as a source of inspiration, which in relation to the history of Hungary could not be an example to follow. They were reluctant to build on József Huszka's research, but his valuable ornamentation collecting activities influenced and defined the turn of the century Hungarian art. Later, the artists took part in the state-funded folk art fieldwork, led by Dezső Malonyay.<br><br>
+We can find delight in several of their works, which in addition to their aesthetic value are important in terms of ethnography as well, we can observe the characteristics of costumes, the everyday life of the people, the representations of holidays, the peasant work, children's games. The exact descriptions of the wooden headstones of the cemeteries, the accurate structural representations of buildings, interiors,  the precision of the eye-catching costumes all show the serious ethnographic interest of the Gödöllő artists.<br><br>
+The arts and crafts and ethnographic activities of the artists of Gödöllő also appear in their fine art works. Ilona Sármány refers to the period between the 1880s and the first world war as a time when " such values were related to folk art in fine art theory that they elevated folk art to the mythically powerful embodiment, savior and keeper of main aesthetic and ethical values" however," those naive, illusory ideals, which were against the capitalist society and could imagine pure, harmonious, hard-working life in harmony with the community and nature only  in the peasant village community, already began to take shape at the time of historicism". Her next idea is also valid for the Gödöllő Artist's Colony, "such inseparable ethical and aesthetic categories get to the fore in their works, as for example purity, truth, beauty, harmony. These values got bonded permanently to folk art then. In their interpretation folk art is not to be understood as a traditional term of art history, but as an organizing force, that penetrates all spheres of life,  that regulates the harmonious relations of man and nature, and man and community. For them, the one who puts the symbolists' aesthetic life ideals to practice is not the esthete, but the simple village peasant, the "intuitive artist" who makes everyday objects and forms his environment  according to the idea of the "beautiful life", with unfailing artistry, confirming the theory of Ruskin and Morris about the inherent aesthetic and ethical nature of the principles of craftsmanship."<br><br>
+For the Gödöllő artists the desire to create national art, and the acknowledgement and respect for folk art went beyond this general perception,  it meant life itself, and became an ethical model defining their lives and their art.<br><br>
+
+
+  </p>
+ <center>
+ <div id="gallery">
+     <a class="example-image-link" href="img/muvesz_2/1.jpg" data-lightbox="example-set" data-title="<h3>Mariska Undi in Transylvania outside the gate of the Korpos family</h3>">
+    <img class="example-image" src="img/muvesz_2/thumbs/1.jpg" alt=""/></a>
+    <a class="example-image-link" href="img/muvesz_2/2.jpg" data-lightbox="example-set" data-title="<h3>Sándor Nagy behind his desk. His chair is covered with a folk embroidered tablecloth</h3>">
+    <img class="example-image" src="img/muvesz_2/thumbs/2.jpg" alt=""/></a>
+    <a class="example-image-link" href="img/muvesz_2/3.jpg" data-lightbox="example-set" data-title="<h3>The three children of Aladár Körösfői-Kriesch in Kalotaszeg style clothes</h3>">
+    <img class="example-image" src="img/muvesz_2/thumbs/3.jpg" alt=""/></a>
+    <a class="example-image-link" href="img/muvesz_2/4.jpg" data-lightbox="example-set" data-title="<h3>Sons of Aladár Körösfői-Kriesch in the studio, sitting on a blanket with folk decaration</h3>">
+    <img class="example-image" src="img/muvesz_2/thumbs/4.jpg" alt=""/></a>
+    
+ </div>
+ </center>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+   <script src="js/lightbox-plus-jquery.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

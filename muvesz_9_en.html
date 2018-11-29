@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>Jenő György Remsey </h1><br>
+  <p id="szoveg"> 
+    The young artist arriving to Gödöllő in 1909, stayed in the town and started a family here.<br><br>
+    He was the founder and leading figure of the Gödöllői Művész Egyesület (Gödöllő Artists' Association) formed in 1919, while in the same years he had important individual and even national successes in art.<br><br>
+    In 1938 he had a very successful solo exhibition in Gödöllő, in the grand hall of the town hall, where the result of 30 years' creative work was presented "old and new works, Biblical and historical compositions, beautiful Hungarian-style tapestry designs - colored window designs of the ancient Hungarian legend circle, of Wagnerian music legend circle, landscapes, genre pictures " - as it is written in the exhibition's brochure. In 1940 Jenő Remsey was ordered to make a large historical painting for the prime minister's council hall in the Parliament. The three-part painting depicts the entry of Miklós Horthy to the regained Kassa. The master created a very important piece of his oeuvre in 1943,  the giant fresco in  the Lónyai Street Protestant Gymnasium in Budapest, entitled The Theoretical History of the Hungarian Reformation.<br><br>
+    Jenő György Remsey's literary work cannot be neglected either. In 1931 a longer excerpt could be read from his mystery play, Az eszeveszettek (The frantic) in the local press, where in previous years there was news about his writing entitled Tűzrakó (Firemaker) as well. A Gödöllő newspaper mentioned the magazine Fáklya (Torch) that was also connected to Jenő Remsey, and his play entitled A hajó (The Ship) was published in 1933.<br><br>
+    Gödöllő town and its cultural institutions research Jenő Remsey's oeuvre, art exhibitions commemorate his achievements and his literary work is also praised in summaries.<br>
+
+  </p>
+ <center>
+ <div id="gallery">
+  
+    <a class="example-image-link" href="img/muvesz_9/2.jpg" data-lightbox="example-set" data-title="<h3>Jenő Remsey The Disciples of Emmaus, 1952 pencil, watercolour, tempera, paper</h3>">
+    <img class="example-image" src="img/muvesz_9/thumbs/2.jpg" alt=""/></a>
+    <a class="example-image-link" href="img/muvesz_9/3.jpg" data-lightbox="example-set" data-title="<h3>Self-portrait of Jenő Remsey, 1923 oil, canvas</h3>">
+    <img class="example-image" src="img/muvesz_9/thumbs/3.jpg" alt=""/></a>
+    <a class="example-image-link" href="img/muvesz_9/4.jpg" data-lightbox="example-set" data-title="<h3>Poster for the performance of the drama called Frater Georgius in Cluj-Napoca, 1942</h3>">
+    <img class="example-image" src="img/muvesz_9/thumbs/4.jpg" alt=""/></a>
+    <a class="example-image-link" href="img/muvesz_9/5.jpg" data-lightbox="example-set" data-title="<h3>Jenő Remsey Peasant Mother, 1938 oil, canvas</h3>">
+    <img class="example-image" src="img/muvesz_9/thumbs/5.jpg" alt=""/></a>
+    <a class="example-image-link" href="img/muvesz_9/1.jpg" data-lightbox="example-set" data-title="<h3>Jenő Remsey The Stories of Scheherazade Tapestry design, pencil, watercolour, tempera, paper</h3>">
+    <img class="example-image" src="img/muvesz_9/thumbs/1.jpg" alt=""/></a>
+ </div>
+ </center>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+   <script src="js/lightbox-plus-jquery.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

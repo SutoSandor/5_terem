@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normal font size" id = "small" class="btn"/> <input type = "button" value = "Large font size" id = "normal" class="btn"/> <input type = "button" value = "Extra Large font size" id = "large" class="btn"/>
+
+  <h1>The weaving school of Gödöllő</h1><br>
+  <p id="szoveg"> 
+    In 1903 Sarolta Kovalszky, the distinguished weaver, who was several times awarded at world exhibitions, in order to save her weaving workshop in Németelemér, Torontál county, turned to the Hungarian state for help. Then with state support they moved the weaving workshop to Gödöllő, where Aladár Körösfői-Kriesch undertook the task of its operation. Thus, the Gödöllő weaving workshop opened in 1904, which after 1907 became the training workshop of the Hungarian Royal School of Applied Arts. The school sent students here with scholarships, so the young people could learn weaving and designing as well.<br><br>
+In the workshop beside the girls and women of Gödöllő also worked young people who came from distant parts of the country. They later returned to their homes and earned their living with the weaving skills they learned here. <br><br>
+As a result of previous connections, related to Sarolta Kovalszky, tapestries were made here designed by János Vaszary, of which an excellent one is the tapestry Gingerbread.<br><br>
+Each member of the artists' colony excelled in tapestry design. In accordance with the approach of the era, tapestries were made mostly to substitute paintings, such as the one designed by Aladár Körösfői-Kriesch, the  Kalotaszegi women or the works of Sándor Nagy, the textiles called  Ildikó and The Rose and the Butterfly. Watching the carpets of Rezsõ Mhály , Mariska Undi and István Zichy  in our exhibition we can see very nice examples of tapestries decorated with mainly stylized vegetal ornamentation and geometric elements. <br><br>
+The weaving school of Gödöllő made the Gödöllő Artists' Colony world famous. Körösfői Kriesch- presented the works of the workshop that he was leading on Hungarian exhibitions and world fairs as well, where they had considerable success. The carpet designs and completed carpets of the weaving workshop can be seen on a screen in the exhibition.<br><br>
+
+
+  </p>
+ <center>
+ <div id="gallery">
+  <a class="example-image-link" href="img/muvesz_6/1.jpg" data-lightbox="example-set" data-title="<h3>János Vaszary's Gingerbread carpet is being prepared in the Gödöllő weaving workshop</h3>">
+  <img class="example-image" src="img/muvesz_6/thumbs/1.jpg" alt=""/></a>
+  <a class="example-image-link" href="img/muvesz_6/2.jpg" data-lightbox="example-set" data-title="<h3>Girls on the porch of the weaving workshop</h3>">
+  <img class="example-image" src="img/muvesz_6/thumbs/2.jpg" alt=""/></a>
+  <a class="example-image-link" href="img/muvesz_6/3.jpg" data-lightbox="example-set" data-title="<h3>Girls in the yard of the weaving workshop</h3>">
+  <img class="example-image" src="img/muvesz_6/thumbs/3.jpg" alt=""/></a>
+    
+ </div>
+ </center>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+   <script src="js/lightbox-plus-jquery.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/costum.css">
+  <link rel="stylesheet" href="css/lightbox.min.css">
+  <title>Leírás</title>
+
+</head>
+<body class="iframe_tartalmak" name="tartalmak">
+
+  <input type = "button" value = "Normál betűméret" id = "small" class="btn"/> <input type = "button" value = "Nagy betűméret" id = "normal" class="btn"/> <input type = "button" value = "Extranagy betűméret" id = "large" class="btn"/>
+
+  <h1>A gödöllői szövőiskola</h1><br>
+  <p id="szoveg"> 
+    1903-ban, a világkiállításokon többszörösen kitüntett szövőnő, Kovalszky Sarolta, Torontál megyei, németeleméri szövőműhelye megmentése érdekében a magyar államhoz fordult segítségért. Ekkor költöztették szövőműhelyét állami támogatással Gödöllőre, ahol Körösfői-Kriesch Aladár vállalta annak működtetését. Így 1904-ben megnyílt a gödöllői szövőműhely, ami 1907 után a Magyar Király Iparművészeti Iskola tanműhelye lett. Az iskola ösztöndíjas hallgatókat küldött ide, ahol a fiatalok a szövés mellett a tervezési feladatokat is elsajátították. A műhelyben a gödöllői lányok és asszonyokon kívül az ország távolabbi településeiről is érkeztek ide fiatalok, akik aztán, visszatérve otthonukba, az itt megtanult szövéssel biztosíthatták maguknak a kenyérkeresetet.  <br><br>
+Még a korábbi, Kovalszky Saroltához köthető kapcsolatok eredményeként készültek itt Vaszary János által tervezett kárpitok, amelyeknek nagyon szép darabja a Mézeskalácsos képkárpit.<br><br>
+A művésztelep minden tagja jeleskedett kárpittervezésben. A kor szemléletének megfelelően elsősorban a festmények helyettesítésére is alkalmas képkárpitokat készítettek, ilyenek a Körösfői-Kriesch Aladár tervei alapján készült Kalotaszegi asszonyok, a Nagy Sándor műveként ismert Ildikó és A Rózsa és a Lepke című textilek. Mihály Rezső, Undi Mariska és Zichy István szőnyegeit szemlélve nagyon szép példákat láthatunk kiállításunkon az elsősorban stilizált növényi ornamentikával és geometrikus elemekkel díszített kárpitokra is.<br><br>
+A gödöllői szövőiskola tette világhírűvé a gödöllői művésztelepet. Körösfői-Kriesch magyarországi tárlatokon és világkiállításokon is bemutatta az általa vezetett műhely munkáit, ahol jelentős sikereket értek el. A szövőműhely szőnyegterveit és elkészült műveit a kiállításban elhelyezett képernyőn láthatjuk bővebben.<br><br>
+
+  </p>
+ <center>
+ <div id="gallery">
+  <a class="example-image-link" href="img/muvesz_6/1.jpg" data-lightbox="example-set" data-title="<h3>A gödöllői szövőműhelyben Vaszary János Mézeskalácsos szőnyegét készítik</h3>">
+  <img class="example-image" src="img/muvesz_6/thumbs/1.jpg" alt=""/></a>
+  <a class="example-image-link" href="img/muvesz_6/2.jpg" data-lightbox="example-set" data-title="<h3>Lányok a szövőműhely gangján</h3>">
+  <img class="example-image" src="img/muvesz_6/thumbs/2.jpg" alt=""/></a>
+  <a class="example-image-link" href="img/muvesz_6/3.jpg" data-lightbox="example-set" data-title="<h3>Lányok a szövőműhely udvarán</h3>">
+  <img class="example-image" src="img/muvesz_6/thumbs/3.jpg" alt=""/></a>
+    
+ </div>
+ </center>
+  <script>
+  var content = document.getElementById("szoveg");
+  var smallButton = document.getElementById("small");
+  var normalButton = document.getElementById("normal");
+  var largeButton = document.getElementById("large");
+  smallButton.onclick = function(e){
+  content.style.fontSize = "26px";
+  }
+  normalButton.onclick = function(e){
+  content.style.fontSize = "33px";
+  }
+  largeButton.onclick = function(e){
+  content.style.fontSize = "40px";
+  }
+  </script>
+
+   <script src="js/lightbox-plus-jquery.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/jquery-3.1.1.slim.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
